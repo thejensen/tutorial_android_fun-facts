@@ -36,7 +36,8 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:id="@+id/showFactButton"
-        android:background="@android:color/white" />
+        android:background="@android:color/white"
+        android:textColor="@android:color/black" />
 
 </RelativeLayout>
 
