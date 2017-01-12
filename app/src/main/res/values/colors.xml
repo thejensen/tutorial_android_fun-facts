@@ -16,5 +16,6 @@
     <color name="darkGray">#637a91</color>
     <color name="pink">#f092b0</color>
     <color name="lightGray">#b7c0c7</color>
+    <color name="transparentWhite">#80ffffff</color>
 
 </resources>
