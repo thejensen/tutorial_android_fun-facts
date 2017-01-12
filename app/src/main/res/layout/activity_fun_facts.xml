@@ -8,10 +8,33 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.sarajensen.funfacts.FunFactsActivity">
+    tools:context="com.sarajensen.funfacts.FunFactsActivity"
+    android:background="@android:color/holo_blue_bright">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Did you know?" />
+        android:text="Did you know?"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Ants stretch when they wake up in the morning."
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/factTextView"
+        android:textSize="24sp" />
+
+    <Button
+        android:text="Show Another Fun Fact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/showFactButton" />
+
 </RelativeLayout>
+
+
